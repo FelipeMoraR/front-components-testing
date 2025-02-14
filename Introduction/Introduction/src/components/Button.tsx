@@ -1,12 +1,9 @@
+import { IButton } from "../interfaces/Interfaces";
 
-interface IButton {
-    text: string;
-    onClick: () => void;
-}
 
-const Button = ({text, onClick}: IButton) => {
+const Button = ({text, cssClasses,onClick}: IButton) => {
     return (
-        <button onClick={onClick}>{text}</button>
+        <button className = {cssClasses} onClick={onClick}>{text}</button>
     )
 }
 

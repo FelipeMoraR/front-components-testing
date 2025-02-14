@@ -1,6 +1,6 @@
 
 
-const translations = {
+const translations: any = {
     en: {
         stepZero: {
             title: "Select your language"

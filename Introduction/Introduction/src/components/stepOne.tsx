@@ -1,12 +1,10 @@
 import translations from "../assets/translations/translations";
+import { IStepOne } from "../interfaces/Interfaces";
 
-interface IStepOne {
-    language: string;
-}
 
 const StepOne = ({language} : IStepOne) => {
     const info = translations[language].stepOne;
-    
+    console.log('info => ', info);
     return (
         <div>
 
