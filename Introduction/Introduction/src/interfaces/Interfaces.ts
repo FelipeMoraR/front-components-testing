@@ -7,3 +7,9 @@ export interface IButton {
     cssClasses: string;
     onClick: () => void;
 }
+
+
+export interface IChooseLanguage {
+    setCurrentLanguage: React.Dispatch<React.SetStateAction<string>>; 
+    setIsLanguageChoosed: React.Dispatch<React.SetStateAction<boolean>>; 
+}

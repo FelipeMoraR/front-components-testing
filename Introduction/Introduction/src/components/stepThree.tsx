@@ -1,7 +1,7 @@
 const StepThree = () => {
     return (
         <div>
-            <h1>Step Three</h1>
+            <h1 className="color-white">Step Three</h1>
         </div>
     )
 }

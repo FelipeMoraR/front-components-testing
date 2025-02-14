@@ -2,9 +2,6 @@
 
 const translations: any = {
     en: {
-        stepZero: {
-            title: "Select your language"
-        },
         stepOne: {
             titleOne: "Welcome to...",
             titleTwo: "My portfolio",
@@ -26,9 +23,6 @@ const translations: any = {
         }
     },
     es: {
-        stepZero: {
-            title: "Selecciona tu lenguaje"
-        },
         stepOne: {
             titleOne: "Bienvenido a...",
             titleTwo: "mi portafolio",
@@ -50,9 +44,6 @@ const translations: any = {
         }
     },
     pt: {
-        stepZero: {
-            title: "Selecione seu idioma"
-        },
         stepOne: {
             titleOne: "Bem-vindo a...",
             titleTwo: "Meu portfólio",
