@@ -1,0 +1,86 @@
+/*FONT SIZE*/
+.font-size-1{
+    font-size: .5rem;
+}
+
+.font-size-2{
+    font-size: .7rem;
+}
+
+.font-size-3{
+    font-size: 1rem;
+}
+
+.font-size-4{
+    font-size: 1.5rem;
+}
+
+.font-size-5{
+    font-size: 2rem;
+}
+
+.font-size-6{
+    font-size: 3rem;
+}
+
+.font-size-7{
+    font-size: 3.5rem;
+}
+
+.font-size-8{
+    font-size: 4rem;
+}
+
+.font-size-md-8{
+    font-size: 4rem;
+}
+
+
+
+/*FONT WEIGTH*/
+.font-weigth-400{
+    font-weight: 400;
+}
+
+.font-weigth-500{
+    font-weight: 500;
+}
+
+.font-weigth-600{
+    font-weight: 600;
+}
+
+.font-weigth-700{
+    font-weight: 700;
+}
+
+.white-space-no-wrap{
+    white-space: nowrap;
+}
+
+
+/* COLOR */
+.color-white {
+    color: rgb(255, 255, 255);
+}
+
+/* ALIGN TEXT*/
+.text-center{
+    text-align: center;
+}
+
+/*NO SELECT*/
+.no-select {
+    -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+    -khtml-user-select: none; /* Konqueror HTML */
+    -moz-user-select: none; /* Old versions of Firefox */
+    -ms-user-select: none; /* Internet Explorer/Edge */
+    user-select: none; /* Non-prefixed version, currently supported by Chrome, Edge, Opera and Firefox */
+  }
+
+@media (max-width: 762px){
+    .font-size-md-8{
+        font-size: 1.5rem;
+    }
+}

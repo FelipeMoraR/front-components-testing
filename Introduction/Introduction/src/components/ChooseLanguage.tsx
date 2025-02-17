@@ -20,7 +20,7 @@ const ChooseLanguage = ({setCurrentLanguage, setIsLanguageChoosed}: IChooseLangu
 
 
     return (
-        <div className="language-selector animation-fadeIn-opacity d-flex justify-content-center align-items-center gap-3 h-100 flex-column">
+        <div className="language-selector animation-fadeIn-opacity d-flex justify-content-center align-items-center gap-3 h-100 flex-column no-select">
           
           <h1 className="color-white font-size-5 font-weigth-400 text-center">Choose your language</h1>
 

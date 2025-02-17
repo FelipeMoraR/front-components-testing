@@ -1,0 +1,79 @@
+
+/* DISPLAY */
+.d-flex {
+    display: flex;
+}
+
+.d-block{
+    display: block;
+}
+
+.d-none{
+    display: none;
+}
+
+
+/* FLEX WRAP */
+.flex-wrap {
+    flex-wrap: wrap;
+}
+
+
+/* FLEX DIRECTION */
+.flex-column {
+    flex-direction: column;
+}
+
+.flex-row {
+    flex-direction: row;
+}
+
+
+/* FLEX PROPERTIES */
+.justify-content-center {
+    justify-content: center;
+}
+
+.align-items-center {
+    align-items: center;
+}
+
+
+/* POSITION */
+.position-relative {
+    position: relative;
+}
+
+.position-absolute {
+    position: absolute;
+}
+
+/* OVERFLOW */
+.overflow-hidden{
+    overflow: hidden;
+}
+
+/* BACKGROUNDS */
+.bg-normal-purple{
+    background-color: var(--normal-purple);
+}
+
+.bg-dark-purple{
+    background-color: var(--dark-purple);
+}
+
+.bg-ligth-purple{
+    background-color: var(--ligth-purple);
+}
+
+.bg-ligth-brown{
+    background-color: var(--ligth-brown);
+}
+
+.bg-green-lemon{
+    background-color: var(--green-lemon);
+}
+
+.bg-grey {
+    background-color: var(--grey);
+}

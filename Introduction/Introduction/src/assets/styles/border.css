@@ -1,0 +1,17 @@
+
+.boder-solid-normal-purple-1 {
+    border: 1px solid var(--normal-purple);
+}
+
+.border-radius-1{
+    border-radius: 4px;
+}
+
+.border-radius-2{
+    border-radius: 8px;
+}
+
+.border-radius-100p{
+    border-radius: 100%;
+}
+
