@@ -21,7 +21,7 @@ const translations: any = {
         portfolio: {
             title: "Projects"
         },
-        exit: "Exit introduction",
+        exit: "Skip",
         loader: "Loading..."
     },
     es: {
@@ -43,7 +43,7 @@ const translations: any = {
         portfolio: {
             title: "Proyectos"
         },
-        exit: "Salir de la introducción",
+        exit: "Saltar",
         loader: "Cargando..."
     },
     pt: {
@@ -65,7 +65,7 @@ const translations: any = {
         portfolio: {
             title: "Projetos"
         },
-        exit: "Sair da introdução",
+        exit: "Pular",
         loader: "Cargando..."
     }
 }

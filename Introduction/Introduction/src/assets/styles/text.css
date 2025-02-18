@@ -31,9 +31,51 @@
     font-size: 4rem;
 }
 
-.font-size-md-8{
+.font-size-9{
+    font-size: 4.5rem;
+}
+
+.font-size-10{
+    font-size: 5rem;
+}
+
+.font-size-11{
+    font-size: 5.5rem;
+}
+
+.font-size-12{
+    font-size: 6rem;
+}
+
+
+/*XXL*/
+.font-size-xxl-6{
+    font-size: 3rem;
+}
+
+/*XL*/
+
+/*LG*/
+.font-size-lg-8{
     font-size: 4rem;
 }
+
+
+/*MD*/
+.font-size-md-12{
+    font-size: 6rem;
+}
+
+.font-size-md-4{
+    font-size: 1.5rem;
+}
+
+
+/*SM*/
+
+
+
+
 
 
 
@@ -64,6 +106,10 @@
     color: rgb(255, 255, 255);
 }
 
+.color-ligth-purple { 
+    color: var(--ligth-purple)
+}
+
 /* ALIGN TEXT*/
 .text-center{
     text-align: center;
@@ -79,8 +125,58 @@
     user-select: none; /* Non-prefixed version, currently supported by Chrome, Edge, Opera and Firefox */
   }
 
-@media (max-width: 762px){
-    .font-size-md-8{
+/*XXL*/
+@media (max-width: 1300px){
+    .font-size-xxl-6{
+        font-size: 2rem;
+    }
+}
+
+/*XL*/
+@media (max-width: 1024px){
+    .font-size-xxl-6{
         font-size: 1.5rem;
     }
 }
+
+/*LG*/
+@media (max-width: 768px){
+    .font-size-lg-8{
+        font-size: 1.5rem;
+    }
+
+    .font-size-xxl-6{
+        font-size: 1.2rem;
+    }
+}
+
+/*MD*/
+@media (max-width: 568px){
+    .font-size-xxl-6{
+        font-size: 1rem;
+    }
+
+    .font-size-md-12{
+        font-size: 4rem;
+    }
+
+    .font-size-md-4{
+        font-size: .8rem;
+    }
+}
+
+/*SM*/
+@media (max-width: 440px){
+    .font-size-md-12{
+        font-size: 3rem;
+    }
+
+    .font-size-md-4{
+        font-size: .7rem;
+    }
+
+    .font-size-xxl-6{
+        font-size: .7rem;
+    }
+}
+

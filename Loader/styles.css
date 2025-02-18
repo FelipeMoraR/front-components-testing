@@ -216,7 +216,7 @@
 
 @keyframes topFaceHide {
     0%{
-        border-top: 50vh solid rgb(77, 65, 88)red;
+        border-top: 50vh solid rgb(77, 65, 88);
     }
 
     100%{

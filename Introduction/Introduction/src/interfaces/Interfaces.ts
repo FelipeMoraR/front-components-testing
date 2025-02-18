@@ -1,9 +1,13 @@
-export interface IStepOne {
+export interface ISteps {
     language: string;
+    isSkiped?: boolean
 }
 
+
+
 export interface IButton {
-    text: string;
+    text?: string;
+    type: string;
     cssClasses: string;
     onClick: () => void;
 }

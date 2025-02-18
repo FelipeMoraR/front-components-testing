@@ -9,7 +9,7 @@ const Loader = ({language, currentStep}: ILoader) => {
     const text = translations[language].loader;
     
     const hideLoader = async () => {
-        await timerPromise(4.5);
+        await timerPromise(2.5);
         setIsVisible(false);
     }
     
@@ -19,7 +19,7 @@ const Loader = ({language, currentStep}: ILoader) => {
 
     return(
         <>
-            <div className={isVisible ? 'position-absolute' : 'd-none'}>
+            <div className= 'animation-fadeOut-opacity d-flex h-100 w-100 justify-content-center align-items-center'>
                 {currentStep}
             </div>
             

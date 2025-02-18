@@ -8,12 +8,16 @@
     transition: all .3s;
 }
 
-.container-img-flag:active{
+.container-img-flag:active img{
     transform: scale(.8);
     opacity: .3;
     transition: all .1s;
 }
 
+.exit-btn{
+    width: 100px;
+    height: 50px;
+}
 
 .exit-btn:hover{
     background-color: var(--dark-purple);
@@ -22,6 +26,36 @@
 }
 
 .exit-btn:active{
-    transform: scale(.9);
+    background-color: var(--ligth-purple);
+    border: 1px solid var(--ligth-purple);
     transition: all 100ms;
+}
+
+
+
+/*XL*/
+@media (max-width: 1300px){
+
+}
+
+/*LG*/
+@media (max-width: 1024px){
+
+}
+
+/*MD*/
+@media (max-width: 768px){
+    
+}
+
+/*SM*/
+@media (max-width: 568px){
+    .exit-btn{
+        width: 25px;
+        height: 25px;
+    }
+
+    .exit-btn .material-symbols-outlined{
+        font-size: 10px;
+    }
 }
