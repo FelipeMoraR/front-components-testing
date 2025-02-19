@@ -22,3 +22,9 @@ export interface ILoader {
     language: string;
     currentStep: React.ReactNode;
 }
+
+export interface IProject {
+    title: string;
+    enterprice: string;
+    image: string;
+}
