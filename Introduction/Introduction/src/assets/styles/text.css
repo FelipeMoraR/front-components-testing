@@ -70,6 +70,10 @@
     font-size: 1.5rem;
 }
 
+.font-size-md-5{
+    font-size: 2rem;
+}
+
 
 /*SM*/
 
@@ -107,7 +111,12 @@
 }
 
 .color-ligth-purple { 
-    color: var(--ligth-purple)
+    color: var(--ligth-purple);
+}
+
+.first-letter-color-ligth-purple::first-letter{
+    color: var(--ligth-purple);
+    
 }
 
 /* ALIGN TEXT*/
@@ -162,6 +171,10 @@
 
     .font-size-md-4{
         font-size: .8rem;
+    }
+
+    .font-size-md-5{
+        font-size: 1.5rem;
     }
 }
 

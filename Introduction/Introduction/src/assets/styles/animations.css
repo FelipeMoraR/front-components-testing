@@ -1,12 +1,42 @@
+.delay-02s{
+    animation-delay: .2s !important;
+}
+
+.delay-04s{
+    animation-delay: .4s !important;
+}
+
+
 .delay-05s{
     animation-delay: .5s !important;
 }
+
+.delay-06s{
+    animation-delay: .6s !important;
+}
+
+
 
 
 .delay-1s{
     animation-delay: 1s !important;
 }
 
+
+.animation-fadeOut-display{
+    animation: fadeOutDisplay .5s linear forwards;
+}
+
+@keyframes fadeOutDisplay{
+    from {
+        opacity: 1;
+        display: block;
+    } 
+    to {
+        opacity: 0;
+        display: none;
+    }
+}
 
 .animation-fadeOut-opacity{
     animation: fadeOut .5s linear forwards;
@@ -106,5 +136,25 @@
 
     50%{
         border-right-color: transparent;
+    }
+}
+
+.animation-falling-down{
+    animation: fallingDown .2s ease-out forwards;
+}
+
+@keyframes fallingDown {
+    0%{
+        opacity: 0;
+        transform: translateY(-100px);
+    }
+
+    70%{
+        transform: translateY(10px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0px);
     }
 }

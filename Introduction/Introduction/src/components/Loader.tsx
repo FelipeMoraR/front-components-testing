@@ -19,7 +19,7 @@ const Loader = ({language, currentStep}: ILoader) => {
 
     return(
         <>
-            <div className= 'animation-fadeOut-opacity d-flex h-100 w-100 justify-content-center align-items-center'>
+            <div className= 'animation-fadeOut-display d-flex w-100 justify-content-center align-items-center'>
                 {currentStep}
             </div>
             

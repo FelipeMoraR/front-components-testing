@@ -1,6 +1,12 @@
+.container-img-flag{
+    width: 62px;
+    height: 41px;
+}
+
 .container-img-flag img{
     width: 100%;
     height: 100%;
+    object-fit: cover;
 }
 
 .container-flag:hover{
@@ -44,6 +50,8 @@
 
 
 
+
+
 /*XL*/
 @media (max-width: 1300px){
 
@@ -56,7 +64,10 @@
 
 /*MD*/
 @media (max-width: 768px){
-    
+    .img-step-three{
+        width: 100px;
+        height: 100px;
+    }
 }
 
 /*SM*/

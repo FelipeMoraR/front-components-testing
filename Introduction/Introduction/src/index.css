@@ -4,18 +4,17 @@
     box-sizing: border-box;
   }
 
-
+  
 button, a {
     -webkit-tap-highlight-color: transparent;
 }
 
 
-html, body, #root{
-    height: 100%;
-    width: 100%;
-    font-family: "DM Serif Text", serif;
+html, body{
+    font-family: "Raleway", serif;
     scroll-behavior: smooth; 
 }
+
   
 
 body{

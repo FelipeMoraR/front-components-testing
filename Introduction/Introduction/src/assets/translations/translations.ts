@@ -15,29 +15,34 @@ const translations: any = {
         stepThree: {
             projects: [
                 {
-                    title: "Updating the public and private web portal",
+                    title: "Updating web site",
                     enterprice: "Camara Chilena de la construcción",
                     image: "cchc.jpg"
                 },
                 {
-                    title: "Update of the comparative portal-latam",
+                    title: "Update private web site",
                     enterprice: "LATAM",
                     image: "latam.jpg"
                 },
                 {
-                    title: "Update public and private web portal",
-                    enterprice: "Camara Chilena de la contrucción / Compromiso PRO",
+                    title: "Update web site",
+                    enterprice: "Compromiso PRO",
                     image: "Compromiso-Pro.jpg"
+                },
+                {
+                    title: "Creating flows in Dynamics 365",
+                    enterprice: "MUTUAL",
+                    image: "mutual.png"
                 }
                ]
         },
         stepFour: {
-            finalTitle: "Check out my portfolio to see more!!!", 
+            finalTitle: "I hope you like my portfolio, do not hesitate to send me a message if you need to contact me.",
+            signature: "Fm" 
         },
         portfolio: {
             title: "Projects"
         },
-        exit: "Skip",
         loader: "Loading..."
     },
     es: {
@@ -53,29 +58,34 @@ const translations: any = {
         stepThree: {
             projects: [
                 {
-                    title: "Actualización del portal web publico y privado",
+                    title: "Actualización pagina web",
                     enterprice: "Camara Chilena de la construcción",
                     image: "cchc.jpg"
                 },
                 {
-                    title: "Actualización del portal comporativo-latam",
+                    title: "Actualización pagina web privada",
                     enterprice: "LATAM",
                     image: "latam.jpg"
                 },
                 {
-                    title: "Actualizar portal web publico y privado",
-                    enterprice: "Camara Chilena de la contrucción / Compromiso PRO",
+                    title: "Actualizar pagina web publica",
+                    enterprice: "Compromiso PRO",
                     image: "Compromiso-Pro.jpg"
+                },
+                {
+                    title: "Creación de flujos en Dynamics 365",
+                    enterprice: "MUTUAL",
+                    image: "mutual.png"
                 }
                ]
         },
         stepFour: {
-            finalTitle: "Revisa mi portafolio para ver más!!!", 
+            finalTitle: "Espero mi portafolio sea de tu agrado, no dudes en enviarme un mensaje si necesitar contactarme.",
+            signature: "Fm" 
         },
         portfolio: {
             title: "Proyectos"
         },
-        exit: "Saltar",
         loader: "Cargando..."
     },
     pt: {
@@ -91,29 +101,34 @@ const translations: any = {
         stepThree: {
             projects: [
                 {
-                    title: "Atualização do portal público e privado",
+                    title: "Atualização do site",
                     enterprice: "Camara Chilena de la construcción",
                     image: "cchc.jpg"
                 },
                 {
-                    title: "Atualização do portal corporativo-latam",
+                    title: "Atualização de página da web privada",
                     enterprice: "LATAM",
                     image: "latam.jpg"
                 },
                 {
-                    title: "Atualizar portal web público e privado",
-                    enterprice: "Camara Chilena de la contrucción / Compromiso PRO",
+                    title: "Atualização do site",
+                    enterprice: "Compromiso PRO",
                     image: "Compromiso-Pro.jpg"
+                },
+                {
+                    title: "Criando fluxos no Dynamics 365",
+                    enterprice: "MUTUAL",
+                    image: "mutual.png"
                 }
                ]
         },
         stepFour: {
-            finalTitle: "Confira meu portfólio para ver mais!!!", 
+            finalTitle: "Espero que gostem do meu portfólio, não hesite em me enviar uma mensagem se precisar entrar em contato comigo.", 
+            signature: "Fm"
         },
         portfolio: {
             title: "Projetos"
         },
-        exit: "Pular",
         loader: "Cargando..."
     }
 }

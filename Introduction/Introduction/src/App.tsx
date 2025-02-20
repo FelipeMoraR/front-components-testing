@@ -79,6 +79,7 @@ function App() {
 
   if(isLoading) return <Loader language = {currentLanguage} currentStep = {arrayStepSkiped[step]}/>
     
+ 
   if(!isLanguageChoosed) return <ChooseLanguage setCurrentLanguage = {setCurrentLanguage} setIsLanguageChoosed = {setIsLanguageChoosed} />
     
   if(isIntroductionSkiped) return <Portfolio/>
@@ -91,14 +92,14 @@ function App() {
         step >= 1 && step < 4 ? (
           <Button
             type = "skip-btn"
-            cssClasses="exit-btn color-white position-absolute right-0 m-3 cursor-pointer boder-solid-normal-purple-1 bg-normal-purple no-select animation-fadeIn-opacity border-radius-2"
+            cssClasses="exit-btn z-index-2 color-white position-absolute right-0 m-3 cursor-pointer boder-solid-normal-purple-1 bg-normal-purple no-select animation-fadeIn-opacity border-radius-2"
             onClick={skipIntroduction}
           />
         ) : null
       }
       
       
-      {arraySteps[2]}
+      {arraySteps[step]}
     </>
     
   )

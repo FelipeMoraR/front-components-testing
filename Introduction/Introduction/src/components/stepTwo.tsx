@@ -1,15 +1,10 @@
 import { ISteps } from "../interfaces/Interfaces";
 import translations from "../assets/translations/translations";
-import timerPromise from "../assets/utils/timer";
 import { useEffect } from "react";
+import changeClassAnimation from "../assets/utils/changeClassAnimation";
 
 const StepTwo = ({language, isSkiped}: ISteps) => {
     const textStep = translations[language].stepTwo;
-
-    const changeClassAnimation = async (containerStepOne:Element) => {
-        await timerPromise(2.5);
-        containerStepOne.classList.add('animation-fadeOut-opacity');
-    }
 
     useEffect(() => {
         const containerStepOne = document.querySelector('.containter-step-two');
@@ -21,7 +16,7 @@ const StepTwo = ({language, isSkiped}: ISteps) => {
     }, []);
 
     return (
-        <div className = "containter-step-two h-100 w-100 d-flex align-items-center justify-content-center flex-column gap-3">
+        <div className = "containter-step-two min-h-100vh w-100 d-flex align-items-center justify-content-center flex-column gap-3">
             <div className = {!isSkiped ? "d-flex align-items-center justify-content-center flex-column animation-fadeIn-opacity" : "d-flex align-items-center justify-content-center flex-column"}>
                 <div className = "color-white font-size-md-4">
                     {textStep.titleName}

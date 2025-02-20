@@ -20,17 +20,18 @@ const ChooseLanguage = ({setCurrentLanguage, setIsLanguageChoosed}: IChooseLangu
 
 
     return (
-        <div className="language-selector animation-fadeIn-opacity d-flex justify-content-center align-items-center gap-3 h-100 flex-column no-select">
+        <div className="language-selector animation-fadeIn-opacity d-flex justify-content-center align-items-center gap-3 min-h-100vh flex-column no-select p-1">
           
           <h1 className="color-white font-size-5 font-weigth-400 text-center">Choose your language</h1>
 
           <div className="d-flex gap-3 flex-wrap justify-content-center">
-              <div className = "position-relative container-flag d-flex flex-column align-items-center">
+              <div className = "position-relative container-flag d-flex flex-column align-items-center gap-1">
                 <div className="container-img-flag">
-                  <img src="https://flagsapi.com/CL/shiny/64.png" alt="usFlag" />
+                  <img src="src/assets/images/flags/cl.png" alt="esFlag" />
 
                   <Button
                     text = "Spanish"
+                    type="button"
                     cssClasses= "position-absolute left-0 h-100 w-100 opacity-0 cursor-pointer"
                     onClick = {() => chooseLanguage('es')}
                   />
@@ -42,12 +43,13 @@ const ChooseLanguage = ({setCurrentLanguage, setIsLanguageChoosed}: IChooseLangu
                 
               </div>
               
-              <div className="position-relative container-flag d-flex flex-column align-items-center">
+              <div className="position-relative container-flag d-flex flex-column align-items-center gap-1">
                 <div className="container-img-flag">
-                  <img src="https://flagsapi.com/US/shiny/64.png" alt="usFlag" />
-
+                  {/* <img src="https://flagsapi.com/US/shiny/64.png" alt="usFlag" /> */}
+                  <img src="src/assets/images/flags/us.png" alt="usFlag" />
                   <Button
                     text = "English"
+                    type="button"
                     cssClasses= "position-absolute left-0 h-100 w-100 opacity-0 cursor-pointer"
                     onClick = {() => chooseLanguage('en')}
                   />
@@ -59,12 +61,13 @@ const ChooseLanguage = ({setCurrentLanguage, setIsLanguageChoosed}: IChooseLangu
                 
               </div>
               
-              <div className="position-relative container-flag d-flex flex-column align-items-center">
+              <div className="position-relative container-flag d-flex flex-column align-items-center gap-1">
                 <div className="container-img-flag">
-                  <img src="https://flagsapi.com/BR/shiny/64.png" alt="brazilFlag" />
+                <img src="src/assets/images/flags/br.png" alt="ptFlag" />
                   
                   <Button
                     text = "Portuguese"
+                    type="button"
                     cssClasses= "position-absolute left-0 h-100 w-100 opacity-0 cursor-pointer"
                     onClick = {() => chooseLanguage('pt')}
                   />
