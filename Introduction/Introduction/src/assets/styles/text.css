@@ -84,6 +84,18 @@
 
 
 /*FONT WEIGTH*/
+.font-weigth-100{
+    font-weight: 100;
+}
+
+.font-weigth-200{
+    font-weight: 200;
+}
+
+.font-weigth-300{
+    font-weight: 300;
+}
+
 .font-weigth-400{
     font-weight: 400;
 }
@@ -100,6 +112,13 @@
     font-weight: 700;
 }
 
+.font-weigth-800{
+    font-weight: 800;
+}
+.font-weigth-900{
+    font-weight: 900;
+}
+
 .white-space-no-wrap{
     white-space: nowrap;
 }
@@ -110,6 +129,10 @@
     color: rgb(255, 255, 255);
 }
 
+.color-lavanda{
+    color: var(--lavanda)
+}
+
 .color-ligth-purple { 
     color: var(--ligth-purple);
 }
@@ -118,6 +141,25 @@
     color: var(--ligth-purple);
     
 }
+
+.first-letter-color-white-bg-ligth-purple::first-letter{
+    color: white;
+    background-color: var(--ligth-purple);
+    border-radius: 4px;
+}
+
+/*FONT STYLE*/
+.font-style-italic {
+    font-style: italic;
+}
+
+.font-style-oblique {
+    font-style: oblique;
+}
+
+
+
+
 
 /* ALIGN TEXT*/
 .text-center{

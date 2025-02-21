@@ -1,7 +1,7 @@
 import timerPromise from "./timer";
 
 const changeClassAnimation = async (containerStepOne:Element) => {
-    await timerPromise(2.5);
+    await timerPromise(3);
     containerStepOne.classList.add('animation-fadeOut-opacity');
 }
 

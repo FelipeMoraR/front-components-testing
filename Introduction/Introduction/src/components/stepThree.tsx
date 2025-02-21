@@ -14,7 +14,7 @@ const StepThree = ({language, isSkiped}: ISteps) => {
 
     }, []);
 
-    const delays = ['', 'delay-02s', 'delay-04s', 'delay-06s']
+    const delays = ['', 'delay-02s', 'delay-04s', 'delay-06s'];
 
     return (
         <div className = "containter-step-three min-h-100vh w-100 d-flex align-items-center justify-content-center">
@@ -22,15 +22,15 @@ const StepThree = ({language, isSkiped}: ISteps) => {
                 {projects.map((project: IProject, index: number) => (
                     <div className={!isSkiped ? "opacity-0 d-flex flex-shrink-1 flex-grow-0 flex-basis-600 gap-3 animation-falling-down " + delays[index] : "d-flex flex-shrink-1 flex-grow-0 flex-basis-600 gap-3"}>
                         <div className="img-step-three flex-shrink-0">
-                            <img className="border-radius-100p" src={'src/assets/images/' + project.image} alt={project.image} />
+                            <img className="border-radius-100p " src={'src/assets/images/' + project.image} alt={project.image} />
                         </div>
                         
-                        <div className="flex-grow-1 d-flex flex-column gap-3">
-                            <div className="color-white font-weigth-500 font-size-md-5">
+                        <div className="flex-grow-1 d-flex flex-column gap-3 ">
+                            <div className="color-white font-weigth-800 font-size-4 color-ligth-purple">
                                 {project.enterprice}
                             </div>
 
-                            <div className="color-white font-weigth-400 font-size-3">
+                            <div className="color-white font-weigth-200 font-size-3 font-style-italic">
                                 {project.title}
                             </div>
                         </div>

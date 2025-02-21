@@ -1,5 +1,9 @@
 
 /* WIDTH */
+.w-fit-content{
+    width: fit-content;
+}
+
 .w-100{
     width: 100%;
 }

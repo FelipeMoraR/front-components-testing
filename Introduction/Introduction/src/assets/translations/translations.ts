@@ -4,7 +4,7 @@ const translations: any = {
     en: {
         stepOne: {
             titleOne: "Welcome to...",
-            titleTwo: "My portfolio",
+            titleTwo: "My web portfolio",
         },
         stepTwo: {
             titleName: "My name is...",
@@ -15,7 +15,7 @@ const translations: any = {
         stepThree: {
             projects: [
                 {
-                    title: "Updating web site",
+                    title: "Update web site",
                     enterprice: "Camara Chilena de la construcción",
                     image: "cchc.jpg"
                 },
@@ -30,14 +30,14 @@ const translations: any = {
                     image: "Compromiso-Pro.jpg"
                 },
                 {
-                    title: "Creating flows in Dynamics 365",
+                    title: "Create flows in Dynamics 365",
                     enterprice: "MUTUAL",
                     image: "mutual.png"
                 }
                ]
         },
         stepFour: {
-            finalTitle: "I hope you like my portfolio, do not hesitate to send me a message if you need to contact me.",
+            finalTitle: '"Please feel free to leave your comment, your opinion is important! Goodbye..."',
             signature: "Fm" 
         },
         portfolio: {
@@ -48,7 +48,7 @@ const translations: any = {
     es: {
         stepOne: {
             titleOne: "Bienvenido a...",
-            titleTwo: "Mi portafolio",
+            titleTwo: "Mi portafolio web",
         },
         stepTwo: {
             titleName: "Mi nombre es...",
@@ -58,17 +58,17 @@ const translations: any = {
         stepThree: {
             projects: [
                 {
-                    title: "Actualización pagina web",
+                    title: "Actualización página web",
                     enterprice: "Camara Chilena de la construcción",
                     image: "cchc.jpg"
                 },
                 {
-                    title: "Actualización pagina web privada",
+                    title: "Actualización página web privada",
                     enterprice: "LATAM",
                     image: "latam.jpg"
                 },
                 {
-                    title: "Actualizar pagina web publica",
+                    title: "Actualización pógina web pública",
                     enterprice: "Compromiso PRO",
                     image: "Compromiso-Pro.jpg"
                 },
@@ -80,7 +80,7 @@ const translations: any = {
                ]
         },
         stepFour: {
-            finalTitle: "Espero mi portafolio sea de tu agrado, no dudes en enviarme un mensaje si necesitar contactarme.",
+            finalTitle: '"No dudes en dejar tu comentario, ¡Tu opinión es imporante! Se despide..."',
             signature: "Fm" 
         },
         portfolio: {
@@ -91,7 +91,7 @@ const translations: any = {
     pt: {
         stepOne: {
             titleOne: "Bem-vindo a...",
-            titleTwo: "Meu portfólio",
+            titleTwo: "Meu portfólio web",
         },
         stepTwo: {
             titleName: "Meu nome é...",
@@ -123,7 +123,7 @@ const translations: any = {
                ]
         },
         stepFour: {
-            finalTitle: "Espero que gostem do meu portfólio, não hesite em me enviar uma mensagem se precisar entrar em contato comigo.", 
+            finalTitle: '"Não hesite em deixar seu comentário, sua opinião é importante! Dizendo adeus..."', 
             signature: "Fm"
         },
         portfolio: {
