@@ -18,6 +18,7 @@ const StepFour = ({language, isSkiped}: ISteps) => {
             divRef.current.textContent += letter;
         }
     };
+
     useEffect(() => {
         if(isSkiped) return;
         addText();
@@ -33,11 +34,11 @@ const StepFour = ({language, isSkiped}: ISteps) => {
     return (
         <div className="min-h-100vh d-flex justify-content-center align-items-center containter-step-four">
             <div className="max-w-900 p-3 position-relative">
-                <div className="color-white font-size-6 font-style-italic" ref={divRef}>
+                <div className="color-white font-size-md-6 font-style-italic" ref={divRef}>
                     {isSkiped ? textStep.finalTitle : null}
                 </div>
                 
-                <div className= {!isSkiped ? "first-letter-color-ligth-purple color-white opacity-0 position-absolute right-0 bottom-0 font-size-5 delay-1s animation-fadeIn-opacity" : "first-letter-color-ligth-purple color-white position-absolute right-0 bottom-0 font-size-5"}>
+                <div className= {!isSkiped ? "first-letter-color-ligth-purple color-white opacity-0 position-absolute rigth-16 bottom-0 font-size-5 delay-1s animation-fadeIn-opacity" : "first-letter-color-ligth-purple color-white position-absolute rigth-16 bottom-0 font-size-5"}>
                     {textStep.signature}
                 </div>
             </div>

@@ -46,6 +46,14 @@
     right: 0;
 }
 
+.rigth-16{
+    right: 16px;
+}
+
+.rigth-45p{
+    right: 45%;
+}
+
 .bottom-0{
     bottom: 0;
 }
@@ -59,9 +67,7 @@
     left: 48%;
 }
 
-.rigth-45p{
-    right: 45%;
-}
+
 
 .translateX-neg-50{
     transform: translateX(-50%);

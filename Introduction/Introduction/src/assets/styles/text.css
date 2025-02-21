@@ -11,7 +11,15 @@
     font-size: 1rem;
 }
 
+.font-size-sm-3{
+    font-size: 1rem;
+}
+
 .font-size-4{
+    font-size: 1.5rem;
+}
+
+.font-size-sm-4{
     font-size: 1.5rem;
 }
 
@@ -72,6 +80,10 @@
 
 .font-size-md-5{
     font-size: 2rem;
+}
+
+.font-size-md-6{
+    font-size: 3rem;
 }
 
 
@@ -188,12 +200,17 @@
     .font-size-xxl-6{
         font-size: 1.5rem;
     }
+
+    .font-size-md-6{
+        font-size: 2rem;
+    }
+
 }
 
 /*LG*/
 @media (max-width: 768px){
     .font-size-lg-8{
-        font-size: 1.5rem;
+        font-size: 2rem;
     }
 
     .font-size-xxl-6{
@@ -232,6 +249,14 @@
 
     .font-size-xxl-6{
         font-size: .7rem;
+    }
+
+    .font-size-sm-4{
+        font-size: 1.2rem;
+    }
+
+    .font-size-sm-3{
+        font-size: .8rem;
     }
 }
 

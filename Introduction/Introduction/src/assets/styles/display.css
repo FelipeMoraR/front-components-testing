@@ -112,3 +112,7 @@
 .bg-grey {
     background-color: var(--grey);
 }
+
+.bg-black-transparent {
+    background-color: #0000001f;
+}

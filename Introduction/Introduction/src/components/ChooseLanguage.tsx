@@ -22,8 +22,8 @@ const ChooseLanguage = ({setCurrentLanguage, setIsLanguageChoosed}: IChooseLangu
     return (
         <div className="language-selector animation-fadeIn-opacity d-flex justify-content-center align-items-center gap-3 min-h-100vh flex-column no-select p-1">
           
-          <h1 className="color-white font-size-5 font-weigth-400 text-center">Choose your language</h1>
-
+          <h1 className="color-white font-size-5 font-weigth-400 text-center">Choose your <span className="color-ligth-purple font-weigth-800">language</span></h1>
+          
           <div className="d-flex gap-3 flex-wrap justify-content-center">
               <div className = "position-relative container-flag d-flex flex-column align-items-center gap-1">
                 <div className="container-img-flag">
@@ -37,7 +37,7 @@ const ChooseLanguage = ({setCurrentLanguage, setIsLanguageChoosed}: IChooseLangu
                   />
                 </div>
 
-                <div className="color-white text-center">
+                <div className="color-white text-center font-style-italic ">
                   <p>es</p>
                 </div>
                 
@@ -55,7 +55,7 @@ const ChooseLanguage = ({setCurrentLanguage, setIsLanguageChoosed}: IChooseLangu
                   />
                 </div>
 
-                <div className="color-white text-center">
+                <div className="color-white text-center font-style-italic ">
                   <p>en</p>
                 </div>
                 
@@ -73,7 +73,7 @@ const ChooseLanguage = ({setCurrentLanguage, setIsLanguageChoosed}: IChooseLangu
                   />
                 </div>
 
-                <div className="color-white text-center">
+                <div className="color-white text-center font-style-italic ">
                   <p>pt</p>
                 </div>
               </div>

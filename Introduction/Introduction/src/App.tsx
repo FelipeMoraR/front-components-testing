@@ -79,7 +79,6 @@ function App() {
 
   if(isLoading) return <Loader language = {currentLanguage} currentStep = {arrayStepSkiped[step]}/>
     
- 
   if(!isLanguageChoosed) return <ChooseLanguage setCurrentLanguage = {setCurrentLanguage} setIsLanguageChoosed = {setIsLanguageChoosed} />
     
   if(isIntroductionSkiped) return <Portfolio/>
