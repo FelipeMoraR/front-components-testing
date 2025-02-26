@@ -146,17 +146,25 @@
 }
 
 .color-ligth-purple { 
-    color: var(--ligth-purple);
+    color: var(--light-purple);
+}
+
+.color-emerald {
+    color: var(--emerald);
+}
+
+.color-emerald-dark {
+    color: var(--emerald-dark);
 }
 
 .first-letter-color-ligth-purple::first-letter{
-    color: var(--ligth-purple);
+    color: var(--light-purple);
     
 }
 
 .first-letter-color-white-bg-ligth-purple::first-letter{
     color: white;
-    background-color: var(--ligth-purple);
+    background-color: var(--light-purple);
     border-radius: 4px;
 }
 

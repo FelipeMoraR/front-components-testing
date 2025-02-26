@@ -98,16 +98,17 @@
 }
 
 .bg-ligth-purple{
-    background-color: var(--ligth-purple);
+    background-color: var(--light-purple);
 }
 
 .bg-ligth-brown{
     background-color: var(--ligth-brown);
 }
 
-.bg-green-lemon{
-    background-color: var(--green-lemon);
+.bg-emeralnd {
+    background-color: var(--emerald);
 }
+
 
 .bg-grey {
     background-color: var(--grey);

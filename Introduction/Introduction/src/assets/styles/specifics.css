@@ -26,14 +26,14 @@
 }
 
 .exit-btn:hover{
-    background-color: var(--dark-purple);
-    border: 1px solid var(--dark-purple);
+    background-color: var(--emerald-dark);
+    border: 1px solid var(--emerald-dark);
     transition: all 70ms;
 }
 
 .exit-btn:active{
-    background-color: var(--ligth-purple);
-    border: 1px solid var(--ligth-purple);
+    background-color: var(--emerald-light);
+    border: 1px solid var(--emerald-light);
     transition: all 100ms;
 }
 

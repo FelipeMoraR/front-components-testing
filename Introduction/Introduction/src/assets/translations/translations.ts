@@ -80,7 +80,7 @@ const translations: any = {
                ]
         },
         stepFour: {
-            finalTitle: '"No dudes en dejar tu comentario, ¡Tu opinión es imporante! Se despide..."',
+            finalTitle: '"No dudes en dejar tu comentario, ¡Tu opinión es importante! Se despide..."',
             signature: "Fm" 
         },
         portfolio: {

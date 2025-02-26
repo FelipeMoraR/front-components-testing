@@ -7,20 +7,16 @@
     border: 2px solid var(--normal-purple);
 }
 
-.border-solid-normal-green-lemon-1{
-    border: 1px solid var(--green-lemon)
-}
-
-.border-solid-normal-green-lemon-2{
-    border: 2px solid var(--green-lemon)
-}
-
 .border-solid-light-purple-1 {
-    border: 2px solid var(--ligth-purple);
+    border: 2px solid var(--light-purple);
 }
 
 .border-solid-light-purple-2 {
-    border: 2px solid var(--ligth-purple);
+    border: 2px solid var(--light-purple);
+}
+
+.border-solid-normal-emerald-1 {
+    border: 1px solid var(--emerald);
 }
 
 .border-radius-1{

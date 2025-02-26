@@ -91,7 +91,7 @@ function App() {
         step >= 1 && step < 4 ? (
           <Button
             type = "skip-btn"
-            cssClasses="exit-btn z-index-2 color-white position-absolute right-0 m-3 cursor-pointer border-solid-normal-purple-1 bg-normal-purple no-select animation-fadeIn-opacity border-radius-2"
+            cssClasses="exit-btn z-index-2 color-white position-absolute right-0 m-3 cursor-pointer border-solid-normal-emerald-1 bg-emeralnd no-select animation-fadeIn-opacity border-radius-2"
             onClick={skipIntroduction}
           />
         ) : null
